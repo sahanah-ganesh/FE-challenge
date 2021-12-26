@@ -1,18 +1,18 @@
-# Welcome to the Tundra front-end developer exercise
+# Welcome to the front-end developer exercise
 
-In this exercise you will be producing a small SPA that displays (and filters) 
+In this exercise you will be producing a small SPA that displays (and filters)
 Movies and their information. These exercises are designed to get a feel for how you approach complex problems.
 
 ## Introduction
 
-You will be building a single page application using whatever technology you prefer, be it a vanilla js or a javascript framework. We are 
+You will be building a single page application using whatever technology you prefer, be it a vanilla js or a javascript framework. We are
 big fans of VueJS, however we are excited to see whichever direction you decide to go in.
 
-The data required for this task will be available on a local api server in JSON format. You will be expected to fetch 
+The data required for this task will be available on a local api server in JSON format. You will be expected to fetch
 (or AJAX) the data into your web application and manipulate/filter the results to display.
 
 The design and strategy teams have provided you with some supporting designs and functional specifications
-which can be found in `designs/Tundra_Technical_Test.fig`.
+which can be found in `designs/Technical_Test.fig`.
 
 Above all, we're not expecting a fully completed test. We're looking for your attention to detail, approach, and to see how you tackle different problems.
 
@@ -26,16 +26,6 @@ Good luck!
 - You will require an internet connection to install npm packages
 - An editor of your choice (e.g. [VSCode](https://code.visualstudio.com/), [Sublime Text](https://www.sublimetext.com/), [WebStorm](https://www.jetbrains.com/webstorm/), [Atom](https://atom.io/), or your own editor/IDE)
 - [Figma Desktop App](https://www.figma.com/downloads/) or a [Figma account](https://www.figma.com/) to view the design files in browser
-
-## Getting started
-To get set up, you will need to
-
-1. [Create a free Bitbucket account](https://id.atlassian.com/signup)
-2. Fork this repository under your new account
-
-    ![Bitbucket Fork](fork.jpg "Bitbucket Fork")
-
-3. Name the repository `tundra-fed-test-<your-name>` and leave it public
 
 ## Instructions
 
@@ -51,9 +41,9 @@ Please list any assumptions, in the `ASSUMPTIONS.md`, file that you have made in
 
 ## Getting started
 
-We have provided you with a desktop design file for the app, located in `designs/Tundra_Technical_Test.fig`. You should 
-make your solution match these designs as closely as possible. Unfortunately, the design team have not provided any 
-mobile designs and look to your expertise in making it responsive. The font used is called `Roboto Condensed` and is readily available on the internet. 
+We have provided you with a desktop design file for the app, located in `designs/Technical_Test.fig`. You should
+make your solution match these designs as closely as possible. Unfortunately, the design team have not provided any
+mobile designs and look to your expertise in making it responsive. The font used is called `Roboto Condensed` and is readily available on the internet.
 
 The strategy team have also provided you with some functional specifications as comments throught the design file within figma, please check these comment carefully to ensure no technical detail is missed.
 
@@ -61,10 +51,10 @@ We have provided you with a starting project in Vanilla JS using SCSS and [parce
 
 ## Requirements
 
-Please allocate yourself 4 hours to complete the following. You are expected to prioritise your 
-tasks to deliver the most overall complete application in this time frame. 
+Please allocate yourself 4 hours to complete the following. You are expected to prioritise your
+tasks to deliver the most overall complete application in this time frame.
 
-We are aware that you will not be able to complete the entire exercise within the 4 hour timeframe, 
+We are aware that you will not be able to complete the entire exercise within the 4 hour timeframe,
 we have designed the excerise this way in-order to gauge how you approach real-world projects, and to highlight your ability
 to articulate remaining tasks (i.e. handover documentation for another developer to pick up where you left off).
 
@@ -85,11 +75,11 @@ If you do choose to spend more that the 4 hours please let us know how long you 
 
 **Option 1 - Vanilla JS**
 
-1. Change into the `default-project` folder and run `yarn install`. 
+1. Change into the `default-project` folder and run `yarn install`.
 1. Start the project via `yarn serve`.
 1. You can then view the project by visiting `localhost:8080` in your browser.
 1. Open the `default-project` in your editor to make changes
- 
+
 ### API Server
 
 Your solution will require interaction with a local API server that provides data.
@@ -101,15 +91,11 @@ To start the server, use a separate terminal window with the following:
 
 The following 2 endpoints will now be available.
 
-| Endpoint                             | Description                       |
-| ------------------------------------ | --------------------------------- |
-| http://localhost:3000/movies         | returns an array of movie data    |
-| http://localhost:3000/genres         | returns genres                    |
+| Endpoint                     | Description                    |
+| ---------------------------- | ------------------------------ |
+| http://localhost:3000/movies | returns an array of movie data |
+| http://localhost:3000/genres | returns genres                 |
 
 ### Stopping the projects and server
 
 If at anytime you want to stop the project servers. Press keys `control + c` in the terminal.
-
-## Submitting your solution
-
-Email the link to your repository to fbf-software@tundra.com.au, and include "Tundra FED Test - your name" as the subject line.
